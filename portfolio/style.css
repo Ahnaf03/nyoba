@@ -1,0 +1,505 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Plus Jakarta Sans', sans-serif; 
+}
+
+body {
+    background: #222222;
+    color: #ededed;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1.25rem 10%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    backdrop-filter: blur(0.3125rem);
+}
+
+.logo {
+    width: 4.375rem;
+}
+
+.navbar a {
+    margin-top: 2rem;
+    font-size: 1.125rem;
+    color: #ededed;
+    font-weight: 500;
+    margin-left: 3.5rem;
+    transition: .3s;
+    text-decoration: none;
+    position: relative;
+}
+
+.navbar a:hover,
+.navbar a.active {
+    color: #5C9DFF;
+}
+
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 10%;
+    position: relative;
+}
+
+.home-content h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    line-height: 1.2;
+    text-align: center;
+    position: relative;
+}
+
+.home-content h3 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #5C9DFF;
+    text-align: center;
+    position: relative;
+}
+
+.home-content p {
+    margin: 1.25rem 0 2.5rem;
+    text-align: justify;
+    font-size: 1rem;
+    position: relative;
+}
+
+.home-content .btn-box {
+    display: flex;
+    justify-content: space-between;
+    width: 21.5625rem;
+    height: 3.125rem;
+    background: transparent;
+    position: relative;
+}
+
+.home-content .hi {
+    font-size: 1.875rem;
+    margin: 3rem;
+    margin-top: 15rem;
+    text-align: center;
+    position: relative;
+    right: 17rem;
+}
+
+.home-content .homee {
+    font-size: 7.5rem;
+    font-weight: Regular;
+    font-family: Plus Jakarta Sans;
+    margin-top: 10rem;
+    position: relative;
+    text-align: center;
+}
+
+hr {
+    border: none;
+    border-top: 0.125rem solid #ededed;
+    margin: 2.5rem;
+    margin-top: 5rem;
+    width: 100%;
+}
+
+.pic {
+    width: 100%;
+    max-width: 31.25rem;
+    margin-left: 1.5625rem;
+    float: left;
+    clear: left;
+    position: relative;
+}
+
+.home-content .homee1 {
+    font-size: 7.5rem;
+    font-weight: Regular;
+    font-family: Plus Jakarta Sans;
+    position: relative;
+    right: 9rem;
+    text-align: center;
+}
+.home-content .homee2 {
+    font-size: 7.5rem;
+    font-weight: Regular;
+    font-family: Plus Jakarta Sans;
+    margin-left: 1.875rem;
+    text-align: center;
+    position: relative;
+}
+.home-content .homee3 {
+    font-size: 7.5rem;
+    font-weight: Regular;
+    font-family: Plus Jakarta Sans;
+    margin-left: 1.875rem;
+    text-align: center;
+    position: relative;
+}
+.home-content .homee4 {
+    font-size: 7.5rem;
+    font-weight: Regular;
+    font-family: Plus Jakarta Sans;
+    margin-left: 1.875rem;
+    text-align: center;
+    position: relative;
+}
+.home-content .homee5 {
+    font-size: 2.5rem;
+    font-weight: 100;
+    font-family: Plus Jakarta Sans;
+    margin-left: 2.1875rem;
+    position: relative;
+    text-align: center;
+    top: 3.5rem;
+}
+
+.sub-images .yutub {
+    width: 3.125rem;
+    position: relative;
+    top: 34rem;
+    right: 31rem;
+}
+.sub-images .linkin {
+    width: 2.3125rem;
+    position: relative;
+    top: 34rem;
+    right: 30rem;
+}
+.sub-images .ig {
+    width: 2.3125rem;
+    position: relative;
+    top: 34rem;
+    right: 29rem;
+}
+.sub-images .github {
+    width: 2.5rem;
+    position: relative;
+    top: 34rem;
+    right: 28rem;
+}
+
+.skills {
+    margin: 10rem 5%;
+    background-color: #333333;
+    padding: 1.25rem;
+    border: 0.0625rem solid #ddd;
+    border-radius: 0.625rem;
+    box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.1);
+}
+
+.skills ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.skills li {
+    margin: 1.25rem;
+    width: calc(50% - 2.5rem);
+    text-align: center;
+}
+
+.skills img {
+    width: 3.125rem;
+    height: 3.125rem;
+    border-radius: 50%;
+    margin-bottom: 0.625rem;
+}
+
+.skills h3 {
+    font-weight: bold;
+    margin-top: 0;
+}
+
+.skills p {
+    font-size: 1rem;
+    color: #bdbdbd;
+}
+
+.skills a {
+    text-decoration: none;
+    color: #337ab7;
+}
+
+.skills a:hover {
+    color: #23527c;
+}
+
+.skills h3 {
+    color: #fff;
+}
+
+.projects {
+    margin: 3rem 5%;
+    background-color: #333;
+    padding: 1.25rem;
+    border: 0.0625rem solid #ddd;
+    border-radius: 0.625rem;
+    box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.1);
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1.25rem;
+}
+
+.project {
+    margin: 3rem 0;
+    background-color: #333;
+    padding: 1.25rem;
+    border: 0.0625rem solid #ddd;
+    border-radius: 0.625rem;
+    box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.1);
+}
+
+.project img {
+    width: 100%;
+    height: 9.375rem;
+    object-fit: cover;
+    margin-bottom: 0.625rem;
+    border-radius: 0.625rem 0.625rem 0 0;
+}
+
+.project h3 {
+    font-weight: bold;
+    margin-bottom: 1.25rem;
+}
+
+.project p {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 0.4375rem;
+}
+
+.project .btn {
+    text-decoration: none;
+    background-color: #222;
+    color: #fff;
+    padding: 0.4375rem 0.9375rem;
+    border: none;
+    border-radius: 0.3125rem;
+    cursor: pointer;
+}
+
+.project .btn:hover {
+    background-color: #444;
+}
+
+.project .btn + .btn {
+    margin-left: 0.4375rem;
+}
+
+.contact {
+    margin: 3rem 5%;
+    margin-top: 5rem;
+    background-color: #333;
+    padding: 1.5rem;
+    border: 0.0625rem solid #ddd;
+    border-radius: 0.4375rem;
+    box-shadow: 0 0 0.4375rem rgba(0, 0, 0, 0.1);
+}
+
+.contact h2 {
+    font-weight: bold;
+    margin-top: 0;
+}
+
+.contact p {
+    font-size: 1rem;
+    color: #fff;
+}
+
+.contact-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.contact-method {
+    margin: 1.3rem;
+    width: calc(100% - 2.5rem);
+    text-align: center;
+}
+
+.contact-method i {
+    font-size: 2rem;
+    margin-bottom: 0.7rem;
+}
+
+.contact-method h3 {
+    font-weight: bold;
+    margin-top: 0;
+}
+
+.contact-method p {
+    font-size: 1rem;
+    color: #666;
+}
+
+.contact-form {
+    color: #333;
+    margin-top: 1.3rem;
+    padding: 1.3rem;
+    border: 0.0625rem solid #ddd;
+    border-radius: 0.4375rem;
+    box-shadow: 0 0 0.4375rem rgba(0, 0, 0, 0.1);
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 0.7rem;
+    margin-bottom: 1.2rem;
+    border: 0.0625rem solid #ccc;
+    border-radius: 0.1rem;
+}
+
+.contact-form button[type="submit"] {
+    background-color: #222;
+    color: #fff;
+    padding: 0.7rem 1.2rem;
+    border: none;
+    border-radius: 0.3rem;
+    cursor: pointer;
+}
+
+.contact-form button[type="submit"]:hover {
+    background-color: #333;
+}
+
+.social-links {
+    margin-top: 1.3rem;
+    text-align: center;
+}
+
+.social-links a {
+    margin: 0.7rem;
+    font-size: 2rem;
+    color: #5C9DFF;
+}
+
+.social-links a:hover {
+    color: #5C9DFF;
+}
+
+.copyright-footer {
+    background-color: #333;
+    color: #fff;
+    padding: 0.7rem;
+    text-align: center;
+    font-size: 1rem;
+    font-family: Arial, sans-serif;
+    border-top: 0.0625rem solid #444;
+}
+
+.copyright-footer a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+copyright-footer a:hover {
+    color: #ccc;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 48rem) {
+    .header {
+        padding: 1.25rem 5%;
+    }
+
+    .navbar a {
+        margin-left: 2rem;
+        font-size: 1rem;
+    }
+
+    .home-content h1 {
+        font-size: 2.625rem;
+    }
+
+    .home-content h3 {
+        font-size: 1.5rem;
+    }
+
+    .home-content p {
+        font-size: 0.875rem;
+    }
+
+    .home-content .homee {
+        font-size: 5rem;
+    }
+
+    .home-content .homee1,
+    .home-content .homee2,
+    .home-content .homee3,
+    .home-content .homee4 {
+        font-size: 5rem;
+    }
+
+    .skills li {
+        width: calc(50% - 1.25rem);
+    }
+
+    .project-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 30rem) {
+    .header {
+        padding: 1.25rem 2.5%;
+    }
+
+    .navbar a {
+        margin-left: 1rem;
+        font-size: 0.875rem;
+    }
+
+    .home-content h1 {
+        font-size: 2rem;
+    }
+
+    .home-content h3 {
+        font-size: 1.25rem;
+    }
+
+    .home-content p {
+        font-size: 0.75rem;
+    }
+
+    .home-content .homee {
+        font-size: 3.75rem;
+    }
+
+    .home-content .homee1,
+    .home-content .homee2,
+    .home-content .homee3,
+    .home-content .homee4 {
+        font-size: 3.75rem;
+    }
+
+    .skills li {
+        width: 100%;
+    }
+
+    .project {
+        margin: 0.9375rem 0;
+    }
+
+    .contact-method {
+        width: 100%;
+    }
+}
